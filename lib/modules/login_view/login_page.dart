@@ -88,8 +88,8 @@ class LoginScreen extends GetView<LoginMobileController> {
                       onTap: () {
                        // _loginMobileController.checkMobileLogin();
 
-                       // Get.to(() => SignUpPage());
-                        Get.to(() => AddBanner());
+                        Get.to(() => SignUpPage());
+                       // Get.to(() => AddBanner());
                        // Get.to(() => HomePage());
                       },
                       btnText: 'Verify',
