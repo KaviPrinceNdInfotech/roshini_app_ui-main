@@ -182,8 +182,11 @@ class ApiProvider{
     http.Response r = await http.post(
       Uri.parse(url,),
       headers: {
+
         "content-type" : "application/json",
         "accept" : "application/json",
+
+
       },
       body: json.encode(map),
     );
@@ -274,4 +277,7 @@ class ApiProvider{
       print('RegistrationListError : ${error}');
     }
   }
+
+
+
 }

@@ -59,6 +59,7 @@ Future<void> main() async {
 
 
 ////all pages
+
 class AppPages {
   AppPages._();
 
